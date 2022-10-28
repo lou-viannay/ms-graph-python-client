@@ -16,5 +16,5 @@ setup(
     url="https://github.com/areed1192/ms-graph-python-client",
     install_requires=["requests", "msal"],
     packages=find_namespace_packages(include=["ms_graph", "ms_graph.*"]),
-    python_requires=">3.8",
+    python_requires=">=3.6",
 )
